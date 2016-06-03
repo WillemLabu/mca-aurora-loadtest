@@ -1,0 +1,33 @@
+{
+  "name": "mca-aurora-loadtest",
+  "version": "1.0.0",
+  "description": "Loadtest Aurora through a Lambda function",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WillemLabu/mca-aurora-loadtest.git"
+  },
+  "keywords": [
+    "aws",
+    "lambda",
+    "aurora"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WillemLabu/mca-aurora-loadtest/issues"
+  },
+  "homepage": "https://github.com/WillemLabu/mca-aurora-loadtest#readme",
+  "devDependencies": {
+    "mysql": "^2.10.2",
+    "nodemon": "^1.9.2"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4"
+  }
+}
